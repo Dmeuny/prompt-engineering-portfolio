@@ -1,10 +1,7 @@
 import sys
 import os
-
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-
 import csv
-from app.classifier import classify_v1, classify_v2, classify_v3
+from classifier import classify_v1, classify_v2, classify_v3
 
 
 def evaluate_model(classify_fn, name):
@@ -12,7 +9,7 @@ def evaluate_model(classify_fn, name):
     total = 0
     filtered_total = 0
 
-    with open("data/dataset.csv", "r") as file:
+    with open("dataset.csv", "r") as file:
         reader = csv.DictReader(file)
 
         for row in reader:
@@ -23,10 +20,8 @@ def evaluate_model(classify_fn, name):
             predicted_label = prediction["label"]
             confidence = prediction["confidence"]
 
-            # Count all samples
             total += 1
 
-            # Only evaluate high-confidence predictions
             if confidence >= 0.7:
                 filtered_total += 1
 
