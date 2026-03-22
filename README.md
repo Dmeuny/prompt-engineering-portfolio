@@ -12,7 +12,7 @@ For example, if a customer says “I was charged twice,” the system classifies
 
 The goal is to move beyond one-off prompting and show how prompts can be designed, tested, and improved as part of a larger system.
 
-It demonstrates prompt engineering, classification design, evaluation, and A/B testing strategies aligned with real-world AI systems.
+It highlights prompt engineering, classification design, evaluation, and A/B testing strategies aligned with real-world AI systems.
 
 ---
 
