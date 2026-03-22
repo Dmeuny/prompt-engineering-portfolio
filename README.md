@@ -1,5 +1,5 @@
 # prompt-engineering
-RAG demo, classification engine, and A/B prompt tester
+LLM classification system with prompt iteration, confidence scoring, and routing logic built to simulate production support ticket triage.
 
 # 🧠 LLM Classification & Prompt Optimization System
 
