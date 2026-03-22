@@ -1,0 +1,16 @@
+text,label
+I was charged twice this month,billing_issue
+why is my payment failing??,billing_issue
+refund my money now,billing_issue
+app crashes when I log in,technical_issue
+the website is super slow,technical_issue
+I keep getting an error message,technical_issue
+can you add dark mode?,feature_request
+it would be cool to have integrations,feature_request
+please add more customization options,feature_request
+I can't log into my account,account_access
+forgot my password and can't reset it,account_access
+my account is locked,account_access
+hello I have a question,other
+just testing this chat,other
+thanks for your help,other
