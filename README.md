@@ -1,4 +1,4 @@
-# prompt-engineering-portfolio
+# prompt-engineering
 RAG demo, classification engine, and A/B prompt tester
 
 # 🧠 LLM Classification & Prompt Optimization System
