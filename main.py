@@ -1,5 +1,5 @@
-from app.classifier import classify_v3 as classify
-from app.router import route
+from classifier import classify_v3 as classify
+from router import route
 
 text = "I was charged twice for my subscription"
 
