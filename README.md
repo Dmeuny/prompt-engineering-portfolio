@@ -6,8 +6,6 @@
 
 This project simulates an AI system that classifies and routes customer support tickets.
 
-It demonstrates how prompt design, evaluation, and iteration can improve the accuracy and reliability of AI systems in a production-style workflow.
-
 For example, if a customer says “I was charged twice,” the system classifies it as Billing and routes it to the correct team, reducing manual triage and improving response efficiency.
 
 The goal is to move beyond one-off prompting and show how prompts can be designed, tested, and improved as part of a larger system.
